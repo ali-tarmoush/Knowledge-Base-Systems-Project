@@ -1,0 +1,19 @@
+
+@import "../layout/variables";
+.card {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: $white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

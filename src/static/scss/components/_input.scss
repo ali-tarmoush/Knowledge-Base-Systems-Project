@@ -1,0 +1,39 @@
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.form-input {
+  height: 45px;
+  color: #000;
+  padding: 0 15px;
+  border-radius: 5px;
+  border: 1px solid #0075ff;
+  background: 0 0;
+  width: 100%;
+}
+.input {
+  margin: 10px 0;
+  width: 100%;
+}
+.submit-input {
+  padding: 10px 30px 12px 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #0075ff;
+  border: none;
+  border-radius: 60px;
+  margin: 10px 0;
+}
+.gh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
